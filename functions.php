@@ -47,8 +47,8 @@ function title(Widget_Archive $archive)
 {
     $archive->archiveTitle(array(
         'category'  =>  '分类 %s 下的文章',
-        'search'    =>  '包含关键字 %s 的文章',
-        'tag'       =>  '标签 %s 下的文章',
+        'search'    =>  '包含 %s 的文章',
+        'tag'       =>  '标签为 %s 的文章',
         'author'    =>  '%s 发布的文章'
     ), '', ' | ');
     Helper::options()->title();

@@ -5,7 +5,7 @@
         <p>
             <span class='left'>&copy; <?php echo date('Y'); ?>
                 <a href="<?php echo $this->options->SiteUrl(); ?>"><?php echo $this->options->title(); ?></a>
-            <span class='right'>Theme by <a href="https://biji.io" target="_blank">Adams</a></span>
+            <span class='right'>由<a href="https://www.raspberrypi.org" target="_blank">树莓派</a>强力驱动</span>
         </p>
 	</section>
 </footer>

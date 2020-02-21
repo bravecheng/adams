@@ -34,7 +34,7 @@
 				}elseif($this->is('arvhie')){
 					echo $this->archiveTitle(array(
                       'category'  =>  '分类 %s 下的文章',
-                      'search'    =>  '包含关键字 %s 的文章',
+                      'search'    =>  '包含 %s 的文章',
                       'tag'       =>  '标签 %s 下的文章',
                       'author'    =>  '%s 发布的文章'
                     ), '', '');
@@ -67,8 +67,7 @@
             <h2 class="fixed-title"></h2>
             <!--<div class="fixed-menus"></div>-->
             <div class="fields">
-                <span><i class="czs-time-l"></i> <?php $this->date('Y-m-d'); ?></span> / 
-                <span><i class="czs-talk-l"></i> <?php $this->commentsNum('无评论', '1 条', '%d 条'); ?></span>
+                <span><i class="czs-time-l"></i> <?php $this->date('Y-m-d'); ?></span>
             </div>
             
             <div class="socials">
